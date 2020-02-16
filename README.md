@@ -15,10 +15,11 @@
 #### 1. Submission includes all required files and can be used to run the simulator in autonomous mode
 
 My project includes the following files:
-* [model.py](model.py)containing the script to create and train the model
-* [drive.py](drive.py) for driving the car in autonomous mode
-* [model_v2.4_data2.h5](model_v2.4_data2.h5) containing a trained convolution neural network 
-* writeup_report.md or writeup_report.pdf summarizing the results
+* [clone.py](./clone.py) contains the script to create and train the model.
+* [extra.py](./extra.py) includes additional functions.
+* [drive.py](./drive.py) for driving the car in autonomous mode.
+* [model_v2.4_data2.h5](./model_v2.4_data2.h5) containing a trained convolution neural network.
+* [README.md](./README.md) summarizing the results.
 
 #### 2. Submission includes functional code
 Using the Udacity provided simulator and my [drive_nvidia.py](./drive_nvidia.py) file, the car can be driven autonomously around the track by executing 
