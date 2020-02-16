@@ -115,3 +115,6 @@ The number of total images is a function of the batch size, the steps per epoch 
 * Number of validation samples: 1210 (20%)
 
 I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was 10 as evidenced by the evolution of training accuracy and validation accuracy.
+
+#### 4. Result
+Here's a [link to my video result in github](./Video.mp4) or in [YouTube](https://youtu.be/6bVqELG-A0E)
