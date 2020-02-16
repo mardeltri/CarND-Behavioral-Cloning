@@ -17,7 +17,7 @@
 My project includes the following files:
 * [clone.py](./clone.py) contains the script to create and train the model.
 * [extra.py](./extra.py) includes additional functions.
-* [drive.py](./drive.py) for driving the car in autonomous mode.
+* [drive_nvidia.py](./drive_nvidia.py) for driving the car in autonomous mode.
 * [model_v2.4_data2.h5](./model_v2.4_data2.h5) containing a trained convolution neural network.
 * [README.md](./README.md) summarizing the results.
 
