@@ -15,20 +15,20 @@
 #### 1. Submission includes all required files and can be used to run the simulator in autonomous mode
 
 My project includes the following files:
-* model.py containing the script to create and train the model
-* drive.py for driving the car in autonomous mode
-* model.h5 containing a trained convolution neural network 
+* [model.py](model.py)containing the script to create and train the model
+* [drive.py](drive.py) for driving the car in autonomous mode
+* [model_v2.4_data2.h5](model_v2.4_data2.h5) containing a trained convolution neural network 
 * writeup_report.md or writeup_report.pdf summarizing the results
 
 #### 2. Submission includes functional code
-Using the Udacity provided simulator and my drive_nvidia.py file, the car can be driven autonomously around the track by executing 
+Using the Udacity provided simulator and my [drive_nvidia.py](./drive_nvidia.py) file, the car can be driven autonomously around the track by executing 
 ```sh
 python drive_nvidia.py model_v2.4_data2.h5
 ```
 
 #### 3. Submission code is usable and readable
 
-The clone.py file contains the code for training and saving the convolution neural network. The file shows the pipeline I used for training and validating the model, and it contains comments to explain how the code works.
+The [clone.py](./clone.py) file contains the code for training and saving the convolution neural network. The file shows the pipeline I used for training and validating the model, and it contains comments to explain how the code works.
 
 ### Model Architecture and Training Strategy
 
@@ -39,15 +39,15 @@ The network model is based on the [Nvidia Model](https://devblogs.nvidia.com/dee
 ![initial architecture][image1]
 
 However, some modifications have been carried out in order to improve the model:
-* Normalize data with a Keras lambda layer (clone.py, line 37).
-* Include ELU layers to introduce nonlinearity (clone.py, lines 38-47).
-* Add a dropout layer after the convolution layers to avoid overfitting  (clone.py, line 43).
+* Normalize data with a Keras lambda layer ([clone.py](./clone.py), line 37).
+* Include ELU layers to introduce nonlinearity ([clone.py](./clone.py), lines 38-47).
+* Add a dropout layer after the convolution layers to avoid overfitting  ([clone.py](./clone.py), line 43).
 
 #### 2. Attempts to reduce overfitting in the model
 
-The model contains a dropout layers in order to reduce overfitting (clone.py lines 43), with a keep probability of 50%.
+The model contains a dropout layers in order to reduce overfitting ([clone.py](./clone.py) lines 43), with a keep probability of 50%.
 
-The model was trained and validated on different data sets to ensure that the model was not overfitting (data has been split in clone.py, line 31). The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track. Later a link to the video will be provided.
+The model was trained and validated on different data sets to ensure that the model was not overfitting (data has been split in [clone.py](./clone.py), line 31). The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track. Later a link to the video will be provided.
 
 #### 3. Model parameter tuning
 
