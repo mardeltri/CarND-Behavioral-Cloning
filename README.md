@@ -4,7 +4,7 @@
 
 [image1]: ./images/cnn-architecture.png "Model Architecture"
 [image2]: ./images/center_2020_02_02_18_23_02_630.jpg "Center image"
-[image3]: ./images/placeholder_small.png "Flipped"
+[image3]: ./images/augmentation.png "Augmentation"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
