@@ -23,6 +23,7 @@ My project includes the following files:
 
 #### 2. Submission includes functional code
 Using the Udacity provided simulator and my [drive_nvidia.py](./drive_nvidia.py) file, the car can be driven autonomously around the track by executing 
+
 ```sh
 python drive_nvidia.py model_v2.4_data2.h5
 ```
@@ -37,6 +38,7 @@ The [clone.py](./clone.py) file contains the code for training and saving the co
 
 
 The network model is based on the [Nvidia Model](https://devblogs.nvidia.com/deep-learning-self-driving-cars/), which have been used to map the raw pixels from a front-facing camera to the steering commands for a self-driving car. This is, our same problem. The original model architecture has been depicted in the next figure.
+
 ![initial architecture][image1]
 
 However, some modifications have been carried out in order to improve the model:
